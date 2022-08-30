@@ -5,5 +5,5 @@ import(
 )
 
 func main() {
-    tcp.ListenAndServe(":8000")
+    tcp.SimpleListenAndServe(":8000")
 }
